@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
 const navLinks = [
@@ -26,15 +27,16 @@ export default function Navbar() {
     <>
       <header className="fixed top-0 left-0 w-full z-50 pt-6 px-4">
         <nav className="max-w-5xl mx-auto flex items-center justify-between bg-black/60 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 shadow-[0_8px_40px_rgba(0,0,0,0.5)]">
-          <a href="#top" className="flex items-center gap-2.5 group">
-            <div className="relative">
-              <div
-                className="w-5 h-5 bg-accent-red rounded-[4px] rotate-45 transition-transform duration-500 group-hover:rotate-[135deg]"
-                style={{ transitionTimingFunction: 'var(--ease-soft)' }}
-              ></div>
-              <div className="absolute inset-0 w-5 h-5 bg-accent-red rounded-[4px] rotate-45 blur-[6px] opacity-50"></div>
-            </div>
-            <span className="text-lg font-bold font-manrope tracking-tight">Agentek Labz</span>
+          <a href="#top" className="flex items-center group">
+            <Image
+              src="/logo.png"
+              alt="Agentek Labz"
+              width={128}
+              height={32}
+              className="h-7 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+              style={{ transitionTimingFunction: 'var(--ease-soft)' }}
+              priority
+            />
           </a>
 
           <div className="hidden md:flex items-center gap-8">

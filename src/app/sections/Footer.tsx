@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Twitter, Linkedin, Github } from 'lucide-react';
 
 const labLinks = [
@@ -25,9 +26,14 @@ export default function Footer() {
     <footer className="bg-black border-t border-zinc-900 pt-12 pb-8 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 relative z-10">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-2.5 mb-4">
-            <div className="w-5 h-5 bg-accent-red rounded-[4px] rotate-45"></div>
-            <span className="text-2xl font-bold font-manrope tracking-tight">Agentek Labz</span>
+          <div className="flex items-center mb-4">
+            <Image
+              src="/logo.png"
+              alt="Agentek Labz"
+              width={160}
+              height={40}
+              className="h-8 w-auto object-contain"
+            />
           </div>
           <p className="text-zinc-500 max-w-xs leading-relaxed">
             An AI agent engineering lab. We design, ship, and run the autonomous systems that operate the work others can't automate.
