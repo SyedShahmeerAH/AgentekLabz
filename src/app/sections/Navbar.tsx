@@ -28,15 +28,17 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 w-full z-50 pt-6 px-4">
         <nav className="max-w-5xl mx-auto flex items-center justify-between bg-black/60 backdrop-blur-xl border border-white/10 rounded-full px-6 py-3 shadow-[0_8px_40px_rgba(0,0,0,0.5)]">
           <a href="#top" className="flex items-center group">
-            <Image
-              src="/logo.png"
-              alt="Agentek Labz"
-              width={240}
-              height={60}
-              className="h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
-              style={{ transitionTimingFunction: 'var(--ease-soft)' }}
-              priority
-            />
+            <div className="relative -my-10 py-0 flex items-center overflow-visible">
+              <Image
+                src="/logo.png"
+                alt="Agentek Labz"
+                width={640}
+                height={160}
+                className="h-28 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                style={{ transitionTimingFunction: 'var(--ease-soft)' }}
+                priority
+              />
+            </div>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

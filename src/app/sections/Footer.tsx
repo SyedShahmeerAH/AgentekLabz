@@ -30,9 +30,9 @@ export default function Footer() {
             <Image
               src="/logo.png"
               alt="Agentek Labz"
-              width={240}
-              height={60}
-              className="h-12 w-auto object-contain"
+              width={640}
+              height={160}
+              className="h-28 w-auto object-contain"
             />
           </div>
           <p className="text-zinc-500 max-w-xs leading-relaxed">
