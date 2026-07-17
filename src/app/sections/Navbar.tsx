@@ -31,9 +31,9 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="Agentek Labz"
-              width={128}
-              height={32}
-              className="h-7 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+              width={160}
+              height={40}
+              className="h-10 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
               style={{ transitionTimingFunction: 'var(--ease-soft)' }}
               priority
             />
