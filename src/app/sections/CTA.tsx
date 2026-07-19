@@ -11,16 +11,16 @@ export default function CTA() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-red"></span>
           </span>
           <span className="text-xs font-medium text-red-100/90 tracking-wide font-manrope">
-            Let's build something autonomous
+            Ready to grow?
           </span>
         </div>
 
         <h2 className="text-5xl md:text-7xl font-bold font-manrope mb-8 tracking-tighter">
-          Ready to <span className="text-accent-red">ship?</span>
+          Ready to <span className="text-accent-red">convert?</span>
         </h2>
 
         <p className="text-xl text-zinc-400 mb-12 font-light">
-          Tell us the workflow that's eating your team's week. We'll show you the agent that owns it.
+          Tell us what you need — a website that sells, an assistant that answers, or a booking system that never misses a lead. We&apos;ll build the system that makes it happen.
         </p>
 
         <form className="max-w-md mx-auto flex flex-col sm:flex-row gap-4"

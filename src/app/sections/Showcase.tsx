@@ -3,12 +3,12 @@
 import CircularGallery from '../components/CircularGallery';
 
 const showcaseItems = [
-  { image: 'https://picsum.photos/seed/agentek-1/800/600?grayscale', text: 'Support Agent' },
-  { image: 'https://picsum.photos/seed/agentek-2/800/600?grayscale', text: 'Pricing Engine' },
-  { image: 'https://picsum.photos/seed/agentek-3/800/600?grayscale', text: 'RAG Pipeline' },
-  { image: 'https://picsum.photos/seed/agentek-4/800/600?grayscale', text: 'Outbound Agent' },
-  { image: 'https://picsum.photos/seed/agentek-5/800/600?grayscale', text: 'Workflow Orchestrator' },
-  { image: 'https://picsum.photos/seed/agentek-6/800/600?grayscale', text: 'Research Engine' },
+  { image: 'https://picsum.photos/seed/agentek-1/800/600?grayscale', text: 'Custom Website' },
+  { image: 'https://picsum.photos/seed/agentek-2/800/600?grayscale', text: 'AI Assistant' },
+  { image: 'https://picsum.photos/seed/agentek-3/800/600?grayscale', text: 'Booking System' },
+  { image: 'https://picsum.photos/seed/agentek-4/800/600?grayscale', text: 'Client Portal' },
+  { image: 'https://picsum.photos/seed/agentek-5/800/600?grayscale', text: 'Dashboard UI' },
+  { image: 'https://picsum.photos/seed/agentek-6/800/600?grayscale', text: 'Integration Layer' },
 ];
 
 export default function Showcase() {
@@ -20,15 +20,15 @@ export default function Showcase() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-red/10 border border-accent-red/20 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-accent-red"></span>
               <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red-300 font-manrope">
-                Visual Showcase
+                What We Build
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight font-manrope leading-[1.1]">
-              Systems in <span className="text-accent-red">motion.</span>
+              Systems that work <span className="text-accent-red">together.</span>
             </h2>
           </div>
           <p className="text-zinc-400 font-light max-w-sm">
-            Drag, scroll, or swipe through the agents we&apos;ve built. Each one runs autonomously in production.
+            Drag, scroll, or swipe through the systems we build — websites, AI assistants, booking tools, and everything in between.
           </p>
         </div>
 

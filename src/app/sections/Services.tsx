@@ -1,15 +1,15 @@
-import { Bot, Code, Zap, Layers, Database, Plug, Check, ArrowRight } from 'lucide-react';
+import { Bot, Code, Zap, Calendar, Check, ArrowRight } from 'lucide-react';
 
 const mainFeature = {
   icon: Bot,
   iconColor: 'text-accent-red',
-  title: 'Autonomous Agent Engineering',
+  title: 'AI Knowledge Assistants',
   description:
-    'Multi-step agents that reason, plan, and act across your tools — from research synthesis to fully autonomous support resolution. We ship agents with guardrails, memory, and observability built in.',
+    'Give your customers instant, accurate answers with an AI assistant trained specifically on your business — your docs, FAQs, products, services, and policies. It works 24/7 like a knowledgeable employee who never forgets the details.',
   bullets: [
-    'Tool-use & function calling orchestration',
-    'Long-term memory & vector recall',
-    'Eval suites & human-in-the-loop fallback',
+    'Trained on your own business data and content',
+    'Answers customer questions instantly, 24/7',
+    'Reduces repetitive inquiries and support load',
   ],
 };
 
@@ -17,23 +17,28 @@ const features = [
   {
     icon: Code,
     iconColor: 'text-blue-400',
-    title: 'Workflow Automation',
+    title: 'Custom Business Websites',
     description:
-      'Replace brittle no-code stacks with durable, observable pipelines that connect every tool in your stack — and self-heal when they break.',
+      'A modern website is your hardest-working salesperson. We design and build responsive, fast, SEO-friendly sites with CMS integration, dashboards, and client portals — so your business looks premium and operates smoothly.',
     span: 'lg:col-span-2',
+    bullets: [
+      'Responsive design that works on every device',
+      'SEO-friendly structure for organic growth',
+      'CMS, dashboards, and client portals integrated',
+    ],
   },
   {
-    icon: Database,
+    icon: Calendar,
     iconColor: 'text-purple-400',
-    title: 'RAG & Data Pipelines',
-    description: 'Ground every answer in your own knowledge — retrieval systems tuned for accuracy, not hallucination.',
+    title: 'Booking & Appointment Systems',
+    description: 'Turn scheduling into revenue with appointment booking, consultation flows, calendar integration, and automated confirmations — so no lead slips through the cracks.',
     span: 'lg:col-span-1',
   },
   {
-    icon: Plug,
+    icon: Zap,
     iconColor: 'text-emerald-400',
-    title: 'Integrations & APIs',
-    description: 'Production-grade connectors across CRM, billing, support, and internal data — typed and tested.',
+    title: 'Strategy & Ongoing Support',
+    description: 'We plan, build, and refine your systems over time — connecting your website, assistant, and booking tools into one cohesive experience.',
     span: 'lg:col-span-1',
   },
 ];
@@ -46,15 +51,15 @@ export default function Services() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-red/10 border border-accent-red/20 mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-accent-red"></span>
             <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red-300 font-manrope">
-              Capabilities
+              Services
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight font-manrope mb-6 leading-[1.1]">
-            The operating system for <br />
-            <span className="text-accent-red">AI-native teams</span>
+            Three services. One clear goal:<br />
+            <span className="text-accent-red">more business.</span>
           </h2>
           <p className="text-lg text-zinc-400 font-light max-w-xl">
-            We replace stitched-together tooling with one cohesive intelligence layer — designed, built, and operated by our lab.
+            We build the digital systems that turn interest into revenue — websites that convert, assistants that answer, and booking flows that never miss an opportunity.
           </p>
         </div>
 
@@ -86,7 +91,7 @@ export default function Services() {
               </div>
               <div className="mt-auto pt-6 flex items-center justify-between opacity-60 group-hover:opacity-100 transition-all duration-700 transform translate-y-2 group-hover:translate-y-0"
               >
-                <span className="text-xs font-mono text-accent-red uppercase tracking-wider">Explore capability</span>
+                <span className="text-xs font-mono text-accent-red uppercase tracking-wider">Explore service</span>
                 <ArrowRight className="w-4 h-4 text-accent-red" />
               </div>
             </div>
@@ -110,7 +115,17 @@ export default function Services() {
                     <Icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-semibold text-white font-manrope mb-2 tracking-tight">{feature.title}</h3>
-                  <p className="text-zinc-400">{feature.description}</p>
+                  <p className="text-zinc-400 mb-4">{feature.description}</p>
+                  {feature.bullets && (
+                    <div className="space-y-2 mt-auto">
+                      {feature.bullets.map((bullet) => (
+                        <div key={bullet} className="flex items-center gap-2.5 text-sm text-zinc-300">
+                          <Check className="w-4 h-4 text-accent-red" />
+                          {bullet}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             );

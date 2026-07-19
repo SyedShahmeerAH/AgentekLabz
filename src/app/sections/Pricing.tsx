@@ -2,44 +2,44 @@ import { Check } from 'lucide-react';
 
 const plans = [
   {
-    name: 'Agent Sprint',
-    description: 'One agent, one outcome, shipped in two weeks.',
+    name: 'Project Sprint',
+    description: 'One focused project shipped fast — a website, AI assistant, or booking system.',
     pricePrefix: 'from $',
     price: '12k',
     period: '/ sprint',
     features: [
-      'Scoped discovery & architecture',
-      'Working prototype + evals',
-      'Production handoff & docs',
+      'Scoped discovery & requirements',
+      'Design, build & launch',
+      'Handoff & documentation',
     ],
     cta: 'Book a Sprint',
     highlighted: false,
   },
   {
-    name: 'Lab Retainer',
-    description: 'A dedicated lab pod for continuous agent work.',
+    name: 'Studio Retainer',
+    description: 'Ongoing design, development, and improvements for your digital systems.',
     pricePrefix: '$',
     price: '9k',
     period: '/ week',
     features: [
-      'Dedicated engineer + architect',
-      'Ship & operate multiple agents',
-      'Weekly evals & roadmap',
+      'Dedicated designer + developer',
+      'Iterate across website, assistant & booking tools',
+      'Weekly prioritization & roadmap',
       'Slack-channel access',
     ],
     cta: 'Start a Retainer',
     highlighted: true,
   },
   {
-    name: 'Intelligence Partner',
-    description: 'Own the AI roadmap end-to-end with the lab as your core team.',
+    name: 'Full Partnership',
+    description: 'We act as your technical team for web, AI, and automation — end to end.',
     pricePrefix: '',
     price: 'Custom',
     period: '',
     features: [
-      'Multi-pod team & on-call',
-      'Full platform & infra ownership',
-      'Quarterly strategy & R&D',
+      'Multi-discipline team',
+      'Platform ownership & maintenance',
+      'Quarterly planning & strategy',
     ],
     cta: 'Talk to Us',
     highlighted: false,
@@ -58,9 +58,9 @@ export default function Pricing() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white font-manrope mb-4 tracking-tight">
-            Ways to work with the lab
+            Ways to work with us
           </h2>
-          <p className="text-zinc-400 font-light">From a focused sprint to a full intelligence partnership.</p>
+          <p className="text-zinc-400 font-light">From a focused project to a full technical partnership.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">

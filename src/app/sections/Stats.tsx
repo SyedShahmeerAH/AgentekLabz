@@ -1,8 +1,8 @@
 const stats = [
-  { value: '240+', label: 'Agents shipped' },
-  { value: '1.2M+', label: 'Hours automated' },
-  { value: '99.98%', label: 'Agent uptime' },
-  { value: '38', label: 'Teams partnered' },
+  { value: '3', label: 'Core services' },
+  { value: '24/7', label: 'AI availability' },
+  { value: 'Fast', label: 'Launch timeline' },
+  { value: 'Premium', label: 'Design & code' },
 ];
 
 export default function Stats() {

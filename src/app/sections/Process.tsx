@@ -5,25 +5,25 @@ const steps = [
     number: '01',
     icon: Search,
     title: 'Discover',
-    description: 'We map your workflows, data, and failure modes — then pinpoint where autonomous agents earn their keep.',
+    description: 'We learn your business, customers, and workflows — then identify where a website, AI assistant, or booking system will have the biggest impact.',
   },
   {
     number: '02',
     icon: FlaskConical,
     title: 'Prototype',
-    description: 'A working agent in two weeks — evals, guardrails, and a measurable outcome, not a slide deck.',
+    description: 'We design and build a working version of your solution quickly — whether it is a landing page, a trained assistant, or a scheduling flow.',
   },
   {
     number: '03',
     icon: Rocket,
     title: 'Ship',
-    description: 'Production deployment with observability, evals in CI, and a clear rollback path. We run it, you own it.',
+    description: 'We deploy your system, connect the tools you already use, and hand over something your team can manage with confidence.',
   },
   {
     number: '04',
     icon: LineChart,
     title: 'Evolve',
-    description: 'Continuous eval-driven improvement — your agents get sharper every week against your own metrics.',
+    description: 'We refine based on real usage — improving copy, flows, and functionality so your website, assistant, or booking tool keeps converting.',
   },
 ];
 
@@ -39,7 +39,7 @@ export default function Process() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight font-manrope leading-[1.1]">
-            A lab process, not a <span className="text-accent-red">black box.</span>
+            A clear process, not a <span className="text-accent-red">black box.</span>
           </h2>
         </div>
 

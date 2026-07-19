@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Twitter, Linkedin, Github } from 'lucide-react';
 
 const labLinks = [
-  { href: '#work', label: 'Selected Work' },
+  { href: '#work', label: 'How We Help' },
   { href: '#services', label: 'Capabilities' },
   { href: '#process', label: 'Process' },
   { href: '#pricing', label: 'Engagements' },
@@ -36,7 +36,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-zinc-500 max-w-xs leading-relaxed">
-            An AI agent engineering lab. We design, ship, and run the autonomous systems that operate the work others can't automate.
+            Agentek Labz builds custom websites, AI knowledge assistants, and booking systems that help growing businesses save time, improve customer experience, and convert more leads.
           </p>
 
           <div className="flex gap-3 mt-6">

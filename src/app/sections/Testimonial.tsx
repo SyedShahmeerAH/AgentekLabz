@@ -18,7 +18,7 @@ export default function Testimonial() {
         </div>
 
         <h3 className="text-3xl md:text-5xl font-bold text-black font-manrope leading-[1.15] mb-10 tracking-tight">
-          "Agentek didn't ship a model — they shipped a teammate. The agent now owns an entire support surface, and our team never looks back."
+          "We don't chase trends — we build systems that solve real business problems and keep working long after launch."
         </h3>
 
         <div className="flex items-center justify-center gap-4">
@@ -26,8 +26,8 @@ export default function Testimonial() {
             <User className="text-white w-6 h-6" />
           </div>
           <div className="text-left">
-            <div className="text-black font-bold text-lg font-manrope">Priya Nair</div>
-            <div className="text-black/70 font-medium text-sm">VP Engineering, Mercato</div>
+            <div className="text-black font-bold text-lg font-manrope">Agentek Labz</div>
+            <div className="text-black/70 font-medium text-sm">Custom websites, AI assistants & booking systems</div>
           </div>
         </div>
       </div>

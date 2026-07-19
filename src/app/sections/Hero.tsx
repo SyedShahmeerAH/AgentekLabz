@@ -31,7 +31,7 @@ export default function Hero() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-red"></span>
           </span>
           <span className="text-xs font-medium text-red-100/90 tracking-wide font-manrope">
-            Now booking Q3 — 3 build slots remain
+            Custom websites, AI assistants & booking systems
           </span>
           <ArrowRight className="w-3 h-3 text-red-400" />
         </div>
@@ -41,12 +41,12 @@ export default function Hero() {
           style={{ animationDelay: '0.2s' }}
         >
           <span className="block text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/40">
-            Autonomous AI agents,
+            Websites, AI assistants,
           </span>
           <span className="block text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/40">
-            engineered for{' '}
+            and booking systems{' '}
             <span className="text-accent-red inline-block relative">
-              operations
+              that convert
               <svg
                 className="absolute w-full h-3 -bottom-2 left-0 text-accent-red opacity-60"
                 viewBox="0 0 100 10"
@@ -62,8 +62,7 @@ export default function Hero() {
           className="text-lg md:text-2xl text-zinc-400 max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up font-light"
           style={{ animationDelay: '0.3s' }}
         >
-          Agentek Labz designs, ships, and runs the intelligence layer for ambitious teams —
-          autonomous agents, automation pipelines, and integrations that work while you sleep.
+          We build the digital systems that turn interest into revenue — modern websites, AI assistants trained on your business, and booking flows that capture every opportunity.
         </p>
 
         <div
@@ -78,7 +77,7 @@ export default function Hero() {
             style={{ transitionTimingFunction: 'var(--ease-soft)' }}
           >
             <Play className="w-4 h-4 text-accent-red" />
-            View Our Work
+            See Our Services
           </a>
         </div>
       </div>
@@ -86,7 +85,7 @@ export default function Hero() {
       <div className="w-full mt-24 md:mt-32 border-y border-white/5 bg-white/[0.02] backdrop-blur-sm py-10 opacity-70 hover:opacity-100 transition-opacity duration-700">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6 md:gap-16">
           <p className="text-sm font-bold tracking-widest text-zinc-500 uppercase shrink-0 font-manrope">
-            Built on:
+            Trusted tools:
           </p>
           <div className="flex flex-wrap justify-center gap-x-10 gap-y-6 md:gap-16 items-center w-full">
             {techLogos.map((logo) => (

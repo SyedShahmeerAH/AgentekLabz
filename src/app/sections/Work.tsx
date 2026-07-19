@@ -2,44 +2,44 @@ const cases = [
   {
     span: 'lg:col-span-3 lg:row-span-2',
     minHeight: 'min-h-[420px]',
-    category: 'Fintech · Support Automation',
-    year: '2025',
-    title: 'Autonomous support agent resolving 74% of tier-1 tickets',
+    category: 'Custom Websites',
+    year: 'Service',
+    title: 'A website that sells while you sleep',
     description:
-      'A reasoning agent with tool-use across billing, identity, and policy docs — deployed into the existing helpdesk with zero workflow disruption.',
+      'We design and build fast, responsive websites that clearly communicate your value and guide visitors toward action — whether that is a purchase, a booking, or a consultation request.',
     metrics: [
-      { label: 'Auto-resolved', value: '74%' },
-      { label: 'Avg → 14s', value: '9 min' },
-      { label: 'Annual savings', value: '$1.4M' },
+      { label: 'Focus', value: 'Conversion' },
+      { label: 'Approach', value: 'Custom' },
+      { label: 'Result', value: 'Growth' },
     ],
   },
   {
     span: 'lg:col-span-3',
-    category: 'E-commerce · Ops',
-    year: '2025',
-    title: 'Inventory & pricing agent across 12 marketplaces',
+    category: 'AI Assistants',
+    year: 'Service',
+    title: 'An AI employee that knows your business',
     description:
-      'Real-time competitive pricing and stock rebalancing — fully autonomous, with audit-trail logging.',
+      'Stop leaving customers waiting. We train AI assistants on your real business content so they answer questions accurately, consistently, and around the clock.',
     metrics: [
-      { label: 'Margin lift', value: '+31%' },
-      { label: 'Uptime', value: '24/7' },
+      { label: 'Availability', value: '24/7' },
+      { label: 'Knowledge', value: 'Yours' },
     ],
   },
   {
     span: 'lg:col-span-2',
-    category: 'Healthtech · Research',
-    year: '2025',
-    title: 'RAG engine over 2M clinical docs',
-    description: 'Cited, traceable answers for clinicians — sub-300ms retrieval.',
-    metrics: [{ label: 'P95 latency', value: '298ms' }],
+    category: 'Booking Systems',
+    year: 'Service',
+    title: 'Scheduling that never drops the ball',
+    description: 'We build appointment and consultation booking systems connected to your calendar, with automated confirmations and reminders that reduce no-shows and manual follow-up.',
+    metrics: [{ label: 'Outcome', value: 'More bookings' }],
   },
   {
     span: 'lg:col-span-1',
-    category: 'SaaS · Growth',
-    year: '2025',
-    title: 'Outbound research agent',
-    description: '10x account exec bandwidth.',
-    metrics: [{ label: 'Throughput', value: '10×' }],
+    category: 'End-to-End',
+    year: 'Service',
+    title: 'Everything connected',
+    description: 'Your website, assistant, and booking tools working together as one clean system.',
+    metrics: [{ label: 'Approach', value: 'Unified' }],
   },
 ];
 
@@ -52,15 +52,15 @@ export default function Work() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-red/10 border border-accent-red/20 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-accent-red"></span>
               <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-red-300 font-manrope">
-                Selected Work
+                How We Help
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight font-manrope leading-[1.1]">
-              Outcomes, not <span className="text-accent-red">demos.</span>
+              Built for <span className="text-accent-red">business growth.</span>
             </h2>
           </div>
           <p className="text-zinc-400 font-light max-w-sm">
-            A look at the agents and systems we've shipped — and the impact they delivered in production.
+            Three services designed to turn interest into revenue — better websites, faster answers, and smoother bookings.
           </p>
         </div>
 
@@ -108,7 +108,7 @@ export default function Work() {
                   <div className="flex flex-wrap gap-6">
                     {item.metrics.map((metric) => (
                       <div key={metric.label}>
-                        <div className={`text-2xl font-bold font-manrope ${metric.label === 'Auto-resolved' || metric.label === 'Margin lift' || metric.label === 'P95 latency' || metric.label === 'Throughput' ? 'text-accent-red' : 'text-white'}`}>
+                        <div className={`text-2xl font-bold font-manrope ${metric.label === 'Outcome' || metric.label === 'Result' || metric.label === 'Availability' ? 'text-accent-red' : 'text-white'}`}>
                           {metric.value}
                         </div>
                         <div className="text-[10px] uppercase tracking-widest text-zinc-500">
